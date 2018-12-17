@@ -1,0 +1,28 @@
+{
+  "name": "dboats-api",
+  "version": "2.0.0",
+  "description": "Easily use the discordboats.club API from your NodeJS bots!",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "author": "sdf",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^10.12.11",
+    "@types/node-fetch": "^2.1.4",
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/discordboats.club/js-api.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/discordboats.club/js-api/issues"
+  },
+  "homepage": "https://gitlab.com/discordboats.club/js-api#readme"
+}

@@ -1,0 +1,6 @@
+.gitignore
+tsconfig.json
+
+src
+testing
+node_modules
