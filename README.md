@@ -25,3 +25,19 @@ await dboats.postServers(100); // Returns true if it posts successfully
 // Get information about a specific user
 await dboats.userInfo('user id'); // Returns an object of user information
 ```
+
+## Webhook
+```js
+const { Webhook } = require('dboats-api');
+const webhookServer = new Webhook({
+    port: 1234, // required
+    auth: 'password in dboats', // required
+    path: '/webhook' // optional path for the webhook, defaults to /
+});
+
+webhookServer.on('like', (botId, userId) => { }); // create an event to handle when your bot is liked
+
+webhookServer.on('unlike', (botId, userId) => { }); // create an event to handle when your bot is unliked
+
+webhookServer.start(); // start the server
+```
