@@ -21,10 +21,10 @@
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/discordboats.club/js-api.git"
+    "url": "https://github.com/discordboats-club/nodejs-api.git"
   },
   "bugs": {
-    "url": "https://gitlab.com/discordboats.club/js-api/issues"
+    "url": "https://github.com/discordboats-club/nodejs-api/issues/"
   },
-  "homepage": "https://gitlab.com/discordboats.club/js-api#readme"
+  "homepage": "https://github.com/discordboats-club/nodejs-api/blob/master/README.md"
 }
