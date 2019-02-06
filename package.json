@@ -1,6 +1,6 @@
 {
   "name": "dboats-api",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Easily use the discordboats.club API from your NodeJS bots!",
   "main": "build/index.js",
   "types": "build/index.d.ts",
